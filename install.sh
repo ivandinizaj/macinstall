@@ -1,9 +1,11 @@
 #!/bin/bash
 set -e
 
+sudo -v
+
 # Brew
 echo "INSTALAR BREW"
-sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "- brew instalado com sucesso"
 
 # Apps
