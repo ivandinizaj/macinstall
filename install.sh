@@ -3,7 +3,7 @@ set -e
 
 # Brew
 echo "INSTALAR BREW"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "- brew instalado com sucesso"
 
 # Apps
