@@ -26,7 +26,7 @@ brew install --cask discord
 echo "📗: discord instalado com sucesso."
 brew install --cask android-studio
 echo "📗: android-studio instalado com sucesso."
-brew install --cask spectaclep
+brew install --cask spectacle
 echo "📗: spectaclep instalado com sucesso."
 brew install --cask postman
 echo "📗: postman instalado com sucesso."
