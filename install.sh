@@ -47,6 +47,8 @@ brew install cocoapods
 echo "📗: cocoapods instalado com sucesso."
 brew install node
 echo "📗: node instalado com sucesso."
+curl -o- -L https://yarnpkg.com/install.sh | bash
+echo "📗: yarn instalado com sucesso."
 
 # ZSH
 # @link https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
@@ -58,7 +60,7 @@ echo "📗: zsh instalado com sucesso."
 chsh -s /usr/local/bin/zsh
 echo "📗: definido zsh com padrão."
 # install oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "📗: oh my zsh instalado com sucesso."
 
 # PLUGINS ZSH
