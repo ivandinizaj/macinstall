@@ -60,7 +60,7 @@ echo "📗: zsh instalado com sucesso."
 chsh -s /usr/local/bin/zsh
 echo "📗: definido zsh com padrão."
 # install oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+[ -f /etc/hosts ] && echo "📙: oh my zsh já instalado" || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "📗: oh my zsh instalado com sucesso."
 # theme spaceship
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
