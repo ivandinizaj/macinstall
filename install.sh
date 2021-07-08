@@ -107,7 +107,7 @@ fi
 
 
 # zsh-autosuggestions
-ZSH_AUTOSUGGESTIONS="${ZSH_PLUGINS}/zsh-syntax-highlighting"
+ZSH_AUTOSUGGESTIONS="${ZSH_PLUGINS}/zsh-autosuggestions"
 if [ -d "$ZSH_AUTOSUGGESTIONS" ]; then
   echo "📙: zsh-autosuggestions já instalado"
 else
