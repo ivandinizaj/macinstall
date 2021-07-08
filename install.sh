@@ -34,6 +34,10 @@ brew install --cask spotify
 echo "📗: spotify instalado com sucesso."
 brew install --cask react-native-debugger
 echo "📗: react-native-debugger instalado com sucesso."
+brew install --cask appcleaner
+echo "📗: appcleaner instalado com sucesso."
+brew install --cask imageoptim
+echo "📗: imageoptim instalado com sucesso."
 
 # Fonts
 echo "⬇ INSTALANDO FONTES"
@@ -62,7 +66,7 @@ echo "📗: definido zsh com padrão."
 
 # install oh my zsh
 DIR_OH_MY_ZSH=~/.oh-my-zsh
-if [ -d "$DIR_OH_MY_ZSH" ]; then
+if [ -d "$DIR_OH_MY_ZSH" ]; then 
   echo "📙: oh my zsh já instalado"
 else
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
