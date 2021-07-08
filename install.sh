@@ -60,8 +60,9 @@ echo "📗: zsh instalado com sucesso."
 chsh -s /usr/local/bin/zsh
 echo "📗: definido zsh com padrão."
 # install oh my zsh
-if ~/.oh-my-zsh -f "$FILE"; then
-  rm -rf ~/.oh-my-zsh
+FILE=~/.oh-my-zsh
+if [-f "$FILE"]; then
+  rm -rf "$FILE"
   "📙: oh my zsh já instalado"
 if
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
