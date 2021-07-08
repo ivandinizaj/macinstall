@@ -38,6 +38,8 @@ brew install --cask appcleaner
 echo "📗: appcleaner instalado com sucesso."
 brew install --cask imageoptim
 echo "📗: imageoptim instalado com sucesso."
+brew install --cask onedrive
+echo "📗: onedrive instalado com sucesso."
 
 # Fonts
 echo "⬇ INSTALANDO FONTES"
@@ -130,5 +132,5 @@ echo "📗: java 1.8 instalado com sucesso."
 # ANDROID
 # permissins licence
 echo "ANDROID LICENCE"
-sdkmanager --licenses
+yes | sdkmanager --licenses
 echo "📗: aceitado licenças do android."
