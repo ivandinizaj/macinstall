@@ -62,9 +62,6 @@ echo "⬇ INSTALANDO ZSH E PLUGINS"
 # install
 brew install zsh
 echo "📗: zsh instalado com sucesso."
-# set zsh with default 
-chsh -s $(which zsh) || true
-echo "📗: definido zsh com padrão."
 
 # install oh my zsh
 DIR_OH_MY_ZSH=~/.oh-my-zsh
@@ -74,6 +71,10 @@ else
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   echo "📗: oh my zsh instalado com sucesso."
 fi
+
+# set zsh with default 
+chsh -s $(which zsh) || true
+echo "📗: definido zsh com padrão."
 
 # theme spaceship 
 DIR_SPACESHIP="${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/themes/spaceship-prompt"
