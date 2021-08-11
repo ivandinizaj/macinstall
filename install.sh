@@ -63,7 +63,7 @@ echo "⬇ INSTALANDO ZSH E PLUGINS"
 brew install zsh
 echo "📗: zsh instalado com sucesso."
 # set zsh with default 
-chsh -s /usr/local/bin/zsh || chsh -s /bin/zsh
+chsh -s $(which zsh) || true
 echo "📗: definido zsh com padrão."
 
 # install oh my zsh
