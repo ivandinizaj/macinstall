@@ -36,7 +36,7 @@ brew install --cask react-native-debugger
 echo "📗: react-native-debugger instalado com sucesso."
 brew install --cask appcleaner
 echo "📗: appcleaner instalado com sucesso."
-brew install --cask imageoptim
+brew install --cask imageoptim || true
 echo "📗: imageoptim instalado com sucesso."
 brew install --cask onedrive
 echo "📗: onedrive instalado com sucesso."
